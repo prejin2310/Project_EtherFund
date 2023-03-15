@@ -3,6 +3,7 @@ import CreateProject from '../components/CreateProject'
 import Projects from '../components/Projects'
 import AddButton from '../components/AddButton';
 
+
 const Home = () => {
   return <>
      <Hero />
@@ -12,6 +13,7 @@ const Home = () => {
      </div>
      <CreateProject/>
      < AddButton />
+    
     </>
 
 }

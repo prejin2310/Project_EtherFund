@@ -1,5 +1,6 @@
 import Identicons from 'react-identicons'
 import { FaEthereum } from 'react-icons/fa'
+import { setGlobalState, useGlobalState } from '../store'
 
 
 const ProjectDetails = () => {
@@ -69,9 +70,13 @@ const ProjectDetails = () => {
               </div>
 
               <div className="flex justify-start items-center space-x-2 mt-4">
-                    <button type='button' className='inline-block px-6 py-2.5 bg-green-600 text-white font-medium text-xs leading-tight uppercase rounded-[7px] shadow-md hover:bg-green-700'>Back Project</button>
+                    <button type='button' className='inline-block px-6 py-2.5 bg-green-600 text-white font-medium text-xs leading-tight uppercase rounded-[7px] shadow-md hover:bg-green-700'
+                    onClick={() => setGlobalState('backModal','scale-100')}
+                    >Back Project</button>
 
-                    <button type='button' className='inline-block px-6 py-2.5 bg-gray-500 text-white font-medium text-xs leading-tight uppercase rounded-[7px] shadow-md hover:bg-gray-700'>Edit</button>
+                    <button type='button' className='inline-block px-6 py-2.5 bg-gray-500 text-white font-medium text-xs leading-tight uppercase rounded-[7px] shadow-md hover:bg-gray-700'
+                    onClick={() => setGlobalState('updateModal','scale-100')}
+                    >Edit</button>
 
                     <button type='button' className='inline-block px-6 py-2.5 bg-red-600 text-white font-medium text-xs leading-tight uppercase rounded-[7px] shadow-md hover:bg-red-700'>Delete</button>
 
