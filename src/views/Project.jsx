@@ -1,4 +1,5 @@
 import BackProjects from "../components/BackProjects"
+import DeleteProjects from "../components/DeleteProjects"
 import ProjectBackers from "../components/ProjectBackers"
 import ProjectDetails from "../components/ProjectDetails"
 import UpdateProjects from "../components/UpdateProjects"
@@ -10,6 +11,7 @@ const Project = () => {
       <ProjectBackers />
       <UpdateProjects/> 
       <BackProjects />
+      <DeleteProjects />
     </>
   )
 }

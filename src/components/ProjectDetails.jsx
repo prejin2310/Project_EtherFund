@@ -78,7 +78,9 @@ const ProjectDetails = () => {
                     onClick={() => setGlobalState('updateModal','scale-100')}
                     >Edit</button>
 
-                    <button type='button' className='inline-block px-6 py-2.5 bg-red-600 text-white font-medium text-xs leading-tight uppercase rounded-[7px] shadow-md hover:bg-red-700'>Delete</button>
+                    <button type='button' className='inline-block px-6 py-2.5 bg-red-600 text-white font-medium text-xs leading-tight uppercase rounded-[7px] shadow-md hover:bg-red-700'
+                    onClick={() => setGlobalState('deleteModal','scale-100')}
+                    >Delete</button>
 
                     <button type='button' className='inline-block px-6 py-2.5 bg-orange-500 text-white font-medium text-xs leading-tight uppercase rounded-[7px] shadow-md hover:bg-orange-700'>Payout</button>
                   
