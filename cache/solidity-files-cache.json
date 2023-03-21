@@ -1,6 +1,41 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
+    "E:\\Testing\\Eth\\src\\contracts\\Genesis.sol": {
+      "lastModificationDate": 1679157503860,
+      "contentHash": "7029e6bbed2dba7e9cd300121fe98547",
+      "sourceName": "src/contracts/Genesis.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "Genesis"
+      ]
+    },
     "E:\\Project\\krowd\\src\\contracts\\EtherFund.sol": {
       "lastModificationDate": 1678871647129,
       "contentHash": "ee7901d97126cc417c6029d5536b49fb",
@@ -34,6 +69,41 @@
       ],
       "artifacts": [
         "EtherFund"
+      ]
+    },
+    "E:\\Project\\krowd\\src\\contracts\\Genesis.sol": {
+      "lastModificationDate": 1679157503860,
+      "contentHash": "7029e6bbed2dba7e9cd300121fe98547",
+      "sourceName": "src/contracts/Genesis.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "Genesis"
       ]
     }
   }

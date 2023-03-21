@@ -13,6 +13,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

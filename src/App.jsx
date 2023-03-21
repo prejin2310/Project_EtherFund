@@ -18,12 +18,12 @@ const App = () => {
   return (
     <div className="min-h-screen relative">
       <Header />
-        {loaded ? (
+      {loaded ? (
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects/:id" element={<Project />} />
         </Routes>
-        ) : null}
+      ) : null}
 
       <ToastContainer
         position="bottom-center"
